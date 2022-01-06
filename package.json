@@ -178,6 +178,7 @@
         "lint": "eslint src --ext ts",
         "pretest": "tsc -p ./",
         "test": "node ./out/test/runTest.js",
+        "package": "vsce package --yarn",
         "publish": "vsce publish --yarn"
     },
     "devDependencies": {
