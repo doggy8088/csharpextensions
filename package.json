@@ -177,7 +177,8 @@
         "watch": "tsc -watch -p ./",
         "lint": "eslint src --ext ts",
         "pretest": "tsc -p ./",
-        "test": "node ./out/test/runTest.js"
+        "test": "node ./out/test/runTest.js",
+        "publish": "vsce publish --yarn"
     },
     "devDependencies": {
         "@types/glob": "^7.1.3",
